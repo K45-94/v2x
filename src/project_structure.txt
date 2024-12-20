@@ -1,11 +1,9 @@
 .github
-.pytest_cache
 .vscode
 eld_env
 myenv
 node_modules/
 src/
-	.pytest_cache
 	data/
 		sample.csv
 		sample.json
