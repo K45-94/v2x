@@ -1,4 +1,4 @@
-# v2x
+# V2X
 CLI tool to simplify the process of managing and working with large datasets.
 
 
