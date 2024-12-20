@@ -43,7 +43,7 @@ Run tests using pytest:
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and submit pull requests. You can submit poor code.
+Contributions are welcome! Please fork the repository and submit pull requests. You can submit poor requests.
 ## License
 
 (https://unlicense.org)
