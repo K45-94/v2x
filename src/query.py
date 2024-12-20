@@ -4,7 +4,7 @@ def query_data(filename, condition):
     try:
         # Load the data
         if filename.endswith('.csv'):
-            data = pd.read_csv(filename, encoding='utf-8-sig')  # Try 'utf-8-sig' for BOM issues
+            data = pd.read_csv(filename, encoding='utf-16')  # Use 'utf-16' encoding
         elif filename.endswith('.json'):
             data = pd.read_json(filename)
         else:
