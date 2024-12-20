@@ -1,0 +1,15 @@
+{
+  "name": "v2x",
+  "version": "1.0.0",
+  "description": "CLI tool to simplify the process of managing and working with large datasets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^7.9.0"
+  }
+}
