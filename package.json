@@ -1,6 +1,6 @@
 {
   "name": "v2x",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "CLI tool to simplify the process of managing and working with large datasets.",
   "main": "index.js",
   "scripts": {

@@ -1,7 +1,11 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import click
-from .ingest import ingest_data
-from .query import query_data
-from .visualize import visualize_data
+from src.ingest import ingest_data
+from src.query import query_data
+from src.visualize import visualize_data
 
 @click.group()
 def cli():
