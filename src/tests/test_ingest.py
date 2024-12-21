@@ -1,5 +1,5 @@
 import pytest
-from src.ingest import ingest_data
+from src.ingest.ingest import ingest_data
 import pandas as pd
 import os
 

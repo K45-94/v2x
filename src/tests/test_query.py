@@ -1,5 +1,5 @@
 import pytest
-from src.query import query_data
+from src.query.query import query_data
 import pandas as pd
 import os
 

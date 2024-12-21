@@ -1,11 +1,7 @@
-import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
 import click
-from src.ingest import ingest_data
-from src.query import query_data
-from src.visualize import visualize_data
+from ..ingest.ingest import ingest_data
+from ..query.query import detect_encoding_and_query
+from ..visualize.visualize import visualize_data
 
 @click.group()
 def cli():
@@ -23,7 +19,7 @@ def ingest(filename):
 @click.argument('condition')
 def query(filename, condition):
     """Query data with a simple condition."""
-    query_data(filename, condition)
+    return detect_encoding_and_query(filename, condition)
 
 @cli.command()
 @click.argument('fields', nargs=-1)

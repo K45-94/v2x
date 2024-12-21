@@ -13,12 +13,12 @@ Modules:
     - utils: Common utility functions used across different modules
 """
 
-from .cli import cli
-from .ingest import ingest_data
-from .query import query_data
-from .visualize import visualize_data
+from .cli.cli import cli
+from .ingest.ingest import ingest_data
+from .query.query import detect_encoding_and_query
+from .visualize.visualize import visualize_data
 
 __version__ = '0.1.0'
 __author__ = 'K45-94'
 __email__ = 'hiuhukelvin@gmail.com'
-__all__ = ['cli', 'ingest_data', 'query_data', 'visualize_data']
+__all__ = ['cli', 'ingest_data', 'detect_encoding_and_query', 'visualize_data']

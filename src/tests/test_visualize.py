@@ -1,5 +1,5 @@
 import pytest
-from src.visualize import visualize_data
+from src.visualize.visualize import visualize_data
 import pandas as pd
 import os
 
